@@ -1,4 +1,4 @@
-import scipy.stats
+import scipy
 import streamlit as st
 import time
 
