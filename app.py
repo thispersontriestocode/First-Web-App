@@ -2,7 +2,7 @@ import pandas as pd
 import scipy.stats
 import streamlit as st
 import time
-
+import altair
 # these are stateful variables which are preserved as Streamlin reruns this script
 if 'experiment_no' not in st.session_state:
     st.session_state['experiment_no'] = 0
